@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { SmallCardComponent } from './components/small-card/small-card.component';
-import { MenuTitleComponent } from "./components/menu-title/menu-title.component";
-import { HomeComponent } from './pages/home/home.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component'; // ajuste o caminho se for diferente
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HomeComponent],
+  imports: [RouterOutlet, MenuBarComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

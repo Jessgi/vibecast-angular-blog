@@ -1,25 +1,19 @@
 <div class="container__small-card">
   <div class="container__small-card-content">
-  <div class="small-card__photo">
-      <img 
-        src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/10/Alok-e-vintage-culture.jpg" 
-        alt="Imagem do lugar para curtir música eletrônica em Recife"
-      />
+    <div class="small-card__photo">
+      <img [src]="photoCover" alt="Imagem relacionada à matéria" />
     </div>
-  
+
     <div class="small-card__title">
       <h1>
-        <a href="#">Lugares pra curtir música eletrônica em Recife</a>
+        <a [routerLink]="['/content', id]">
+          {{ cardTitle }}
+        </a>        
       </h1>
     </div>
- 
+  </div>
+
   <div class="container__small-card__separator">
-
+    <hr />
+  </div>
 </div>
-  <hr>
-  <div>
-</div>
-
-
-
-  

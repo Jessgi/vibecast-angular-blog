@@ -1,28 +1,35 @@
-
-<header>
-    <app-menu-bar></app-menu-bar>
-</header>
-
 <app-menu-title></app-menu-title>
 
 <div class="container__articles">
-    <div class="articles__main">
-        <app-big-card></app-big-card>
-    </div>
+    <app-big-card 
+  [id]="'1'"
+  photoCover="https://blog.newville.com.br/wp-content/uploads/2024/02/vida-noturna-Recife.jpeg"
+  cardTitle="LUGARES PARA CONHECER MÚSICA ELETRÔNICA EM RECIFE"
+  cardDescription="Descubra onde curtir as melhores vibes da cena eletrônica recifense">
+</app-big-card>
+
+
     <div class="articles__others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card 
+        id="2"
+        cardTitle="novos Djs"
+        photoCover="https://blog.newville.com.br/wp-content/uploads/2024/02/vida-noturna-Recife.jpeg"
+        >
+    </app-small-card>
+
+      <app-small-card
+        id="3"
+        cardTitle="top 10 musicas eletronicas"
+        photoCover="https://diariotocantinense.com.br/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-01-at-09.17.11.jpeg"
+        >
+        </app-small-card>
+
+        <app-small-card
+        id="4"
+        cardTitle="afro house em alta"
+        photoCover="https://blog.newville.com.br/wp-content/uploads/2024/02/vida-noturna-Recife.jpeg"
+        >
+    </app-small-card>
+
     </div>
 </div>
-<h1>NOVIDADES</h1>
-<hr>
-<div class="container__articles">
-    <div class="articles__main">
-        <app-big-card></app-big-card>
-    </div>
-    <div class="articles__others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-    </div>
