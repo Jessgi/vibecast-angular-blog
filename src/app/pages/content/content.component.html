@@ -1,16 +1,17 @@
 <div class="container__content">
-    <div class="content__cover">
-      <img src="{{ photoCover }}" alt="" />
-    </div>
-  
-    <div class="content__title">
-      <h1>{{ contentTitle }}</h1>
-      <hr />
-    </div>
-  
-    <div class="content__description">
-    
-      <p>{{ contentDescription }}</p>
-    </div>
+  <div class="content__cover">
+    <img [src]="photoCover" alt="Capa do artigo">
   </div>
-  
+
+  <div class="content__title">
+    <h1>{{ contentTitle }}</h1>
+  </div>
+
+  <div class="content__description" [innerHTML]="contentDescription">
+    
+  </div>
+
+  <div class="back-button">
+    <a routerLink="/" class="btn-back">← Voltar para o blog</a>
+  </div>
+</div>
