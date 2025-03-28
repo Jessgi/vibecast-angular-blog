@@ -10,7 +10,7 @@ export const routes: Routes = [
   },
   {
     path: 'content/:id',
-    component: ContentComponent,
+    component: ContentComponent
   }
 ];
 
