@@ -79,6 +79,13 @@ export const Datafake = [
 
 
       <p>⚡️ Recife tá fervendo no som eletrônico — aproveita essas dicas e vive essa vibe!</p>
+     
+
+      <p><strong>Quer sugerir um lugar que ficou de fora?</strong> <br>
+      Preencha o formulário e compartilhe sua dica com a gente:</p>
+      <p><a href="https://forms.gle/sTGVfrx49uundNkG7" target="_blank">👉 Clique aqui para sugerir um novo local</a></p>
+
+
     `
   },
   {

@@ -3,6 +3,8 @@ import { ActivatedRoute } from '@angular/router';
 import { Datafake } from '../../data/datafake';
 import { RouterModule } from '@angular/router'; // 👈 ADICIONE isso aqui
 
+
+
 @Component({
   selector: 'app-content',
   standalone: true,

@@ -1,9 +1,35 @@
 .container__small-card {
-  width: 700px;
-  margin-top:15px;
-  margin-bottom:15px;
+  width: 100%;
+  max-width: 700px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   display: flex;
   flex-direction: row;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container__small-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container__small-card-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .small-card__photo > img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 12px auto;
+  }
+
+  .small-card__title {
+    justify-content: center;
+    padding: 0 10px;
+  }
 }
 
 .container__small-card-content {
@@ -15,9 +41,12 @@
   width: 200px;
   min-width: 200px;
   margin-right: 20px;
+  border-radius: 8px;
 }
 
 .small-card__title {
   display: flex;
   justify-content: center;
+  align-items: center;
+  color: white;
 }
